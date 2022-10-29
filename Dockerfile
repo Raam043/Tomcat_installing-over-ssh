@@ -4,4 +4,4 @@ From tomcat:9-jre9
 # Maintainer 
 MAINTAINER "Ramesh NB" 
 
-COPY ./index.html /usr/local/tomcat/webapps
+COPY ./myapp /usr/local/tomcat/webapps
