@@ -1,8 +1,8 @@
 # Pull base image 
-From tomcat:9-jre9
+From amazonlinux
 
 # Maintainer 
 MAINTAINER "Ramesh NB" 
 WORKDIR /usr/local/
-CMD "mkdir" "/usr/local/tomcat/webapps/RRR"
+CMD mkdir /usr/local/tomcat/webapps/RRR
 COPY ./index.html /usr/local/tomcat/webapps/RRR
