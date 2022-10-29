@@ -7,5 +7,5 @@ RUN cd /tmp && tar xvfz apache-tomcat-9.0.68.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-9.0.68/* /usr/local/tomcat/
 CMD mkdir /usr/local/tomcat/webapps/RRR
 CMD cp index.html /usr/local/tomcat/webapps/RRR
-EXPOSE 8080
+EXPOSE 8090
 CMD /usr/local/tomcat/bin/catalina.sh run
