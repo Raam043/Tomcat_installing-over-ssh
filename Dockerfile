@@ -3,5 +3,5 @@ From tomcat:9-jre9
 
 # Maintainer 
 MAINTAINER "Ramesh NB" 
-
-COPY ./index.html /usr/local/tomcat/webapps/test
+RUN mkdir /usr/local/tomcat/webapps/myapp
+COPY ./index.html /usr/local/tomcat/webapps/myapp
